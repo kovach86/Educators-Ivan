@@ -11,7 +11,7 @@ namespace TextHandlers
     {
         public static void WriteError(Exception ex)
         {
-            string path = @"C:\Users\Kovach\Documents\Visual Studio 2015\Projects\Educators\TextHandlers\Text_Files\ErrorLogger.txt";
+            string path = @"";
             TextWriter writer = new StreamWriter(path, true);
             StringBuilder sb = new StringBuilder();
 
